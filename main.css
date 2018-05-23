@@ -1,0 +1,183 @@
+body {
+    background: url(ozadjenaslov.jpg);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.naslov {
+    text-align: center;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 600%;
+    padding: 0px 30px;
+    margin: 0px;
+    border-top: 10px solid #333;
+    border-left: 10px solid #333;
+    border-right: 10px solid #333;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0px;
+}
+
+.menu li {
+    float: left;
+    text-transform: uppercase;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 25px 28px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.menu li a:active {
+    background-color: white;
+    color: black;
+}
+
+.podnaslov {
+    font-family: arial;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.naslovna_slika {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 80px;
+    border: 10px solid #333;
+}
+
+.opis {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.opis_text {
+    padding: 15px 50px;
+}
+
+.zgodba {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.zgodba_text {
+    padding: 15px 50px;
+}
+
+.igranje {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.igranje_text {
+    padding: 15px 50px;
+}
+
+.viri {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.viri_list {
+    padding: 15px 100px;
+}
+
+.viri_list li {
+    padding: 10px 0px;
+}
+
+.footer {
+    background-color: #333;
+    list-style-type: none;
+    padding: 25px 200px;
+    margin; 0px
+}
+
+.footer li {
+    color: #afafaf;
+    font-family: arial;
+    font-size: 13px;
+}
+
+.footer li a {
+    color: #afafaf;
+}
+
+.prvi-bq {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.drugi-bq {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+table {
+    width: 80%;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+th {
+    background-color: white;
+    color: black;
+}
+
+tr:hover {
+    background-color: #7a7a7a;
+}
+
+.tabela-div {
+    padding: 30px;
+    width: 100%;
+}
+
+.text-tabela {
+    text-align: center;
+    font-family: arial;
+    font-size: 40px;
+    padding: 20px 0px 0px;
+}
+
+.igranje-slika, .text-slika {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 10px solid #333;
+    margin-top: 20px;
+}
+
