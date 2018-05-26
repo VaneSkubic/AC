@@ -160,10 +160,16 @@ td {
 /*                        Video                         */
 
 .video {
-    width: 1440px;
+    display: block;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 50px 0px;
+}
+
+iframe {
+    width: 100%; 
+    height: calc(100% * 0.7);
 }
 
 /*                        Footer                         */
